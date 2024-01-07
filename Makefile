@@ -1,6 +1,6 @@
 # Compiler and flags
 CC := gcc
-CFLAGS := -Wall -Wextra
+CFLAGS := -Wall -Wextra -lncurses
 
 # Debug flags with sanitizers
 DEBUG_FLAGS := -fsanitize=address,undefined
