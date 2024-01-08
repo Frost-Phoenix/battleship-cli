@@ -16,7 +16,7 @@ OBJ_FILES := $(patsubst $(SRC_DIR)/%.c, $(BIN_DIR)/%.o, $(SRC_FILES))
 INSTALL_DIR := /usr/local/bin
 
 # Output target
-TARGET := program_name
+TARGET := battleship
 
 # Phony targets
 .PHONY: all debug release run install uninstall clean
